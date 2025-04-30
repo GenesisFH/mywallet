@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import '../model/activity_model.dart';
 
 class TransactionController {
-  final formKey = GlobalKey<FormState>();
+  final formKey = GlobalKey<FormState>(); // gestor de estados
 
   final nameController = TextEditingController();
   final descriptionController = TextEditingController();
